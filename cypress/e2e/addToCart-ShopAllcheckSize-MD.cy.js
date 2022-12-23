@@ -26,6 +26,7 @@ describe(`Grab all the pdp SKU and Array of pdps`, () => {
                 'accept': 'application/json'
             }
         })
+        
         .then((response) => {
             // Parse JSON the body.
             let newData = response.body.products;
